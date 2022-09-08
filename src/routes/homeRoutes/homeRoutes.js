@@ -5,7 +5,7 @@ const homeRouter = Router();
 homeRouter.get("/", async (req, res) => {
 	//verifica si existe el usuario en session(registrado)
 	const user = await req.user;
-	console.log(user);
+	//console.log(user);
 	// console.log(user);
 	if (user) {
 		return res.redirect("/api/chat");
