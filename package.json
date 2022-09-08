@@ -1,0 +1,47 @@
+{
+	"name": "segunda-entrega",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./src/server.js",
+	"type": "module",
+	"scripts": {
+		"start": "node .",
+		"dev": "nodemon --experimental-json-modules ./src/server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Tommignacio/Dominguez-Tomas-Segunda-Entrega.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Tommignacio/Dominguez-Tomas-Segunda-Entrega/issues"
+	},
+	"homepage": "https://github.com/Tommignacio/Dominguez-Tomas-Segunda-Entrega#readme",
+	"dependencies": {
+		"autocannon": "^7.9.0",
+		"bcrypt": "^5.0.1",
+		"compression": "^1.7.4",
+		"connect-mongo": "^4.6.0",
+		"dotenv": "^16.0.1",
+		"ejs": "^3.1.8",
+		"express": "^4.18.1",
+		"express-session": "^1.17.3",
+		"firebase-admin": "^11.0.0",
+		"knex": "^2.1.0",
+		"log4js": "^6.6.1",
+		"moment": "^2.29.3",
+		"mongoose": "^6.4.1",
+		"morgan": "^1.10.0",
+		"mysql": "^2.18.1",
+		"normalizr": "^3.6.2",
+		"passport": "^0.6.0",
+		"passport-local": "^1.0.0",
+		"socket.io": "^4.5.1",
+		"sqlite3": "^5.0.8"
+	},
+	"devDependencies": {
+		"@faker-js/faker": "^7.3.0"
+	}
+}

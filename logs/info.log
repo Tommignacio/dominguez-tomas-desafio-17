@@ -1,0 +1,13 @@
+[2022-09-08T16:40:32.984] [INFO] infoFile - { route: '/', method: '[GET]' }
+[2022-09-08T16:40:33.244] [INFO] infoFile - { route: '/api/login', method: '[GET]' }
+[2022-09-08T16:40:34.396] [INFO] infoFile - { route: '/favicon.ico', method: '[GET]' }
+[2022-09-08T16:40:47.757] [INFO] infoFile - { route: '/api/login', method: '[GET]' }
+[2022-09-08T16:41:02.405] [INFO] infoFile - { route: '/api/login', method: '[GET]' }
+[2022-09-08T16:41:14.290] [INFO] infoFile - { route: '/api/login', method: '[POST]' }
+[2022-09-08T16:41:14.449] [INFO] infoFile - { route: '/errorLogin', method: '[GET]' }
+[2022-09-08T16:41:31.492] [INFO] infoFile - { route: '/api/register', method: '[POST]' }
+[2022-09-08T16:41:31.940] [INFO] infoFile - { route: '/', method: '[GET]' }
+[2022-09-08T16:41:32.354] [INFO] infoFile - { route: '/api/chat', method: '[GET]' }
+[2022-09-08T16:42:03.075] [INFO] infoFile - { route: '/api/logout', method: '[GET]' }
+[2022-09-08T16:42:05.346] [INFO] infoFile - { route: '/', method: '[GET]' }
+[2022-09-08T16:42:05.400] [INFO] infoFile - { route: '/api/login', method: '[GET]' }

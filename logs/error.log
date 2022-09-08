@@ -1,0 +1,2 @@
+[2022-09-08T16:40:34.397] [ERROR] error - route '/favicon.ico' method 'GET' not implemented
+[2022-09-08T16:41:14.450] [ERROR] error - route '/errorLogin' method 'GET' not implemented
