@@ -5,8 +5,8 @@ import dotenv from "dotenv";
 
 dotenv.config();
 let productsDao, cartsDao, authorsDao, messagesDao, usersDao;
-
-switch (process.env.DB_NAME) {
+console.log(process.env.DB_NAME);
+switch ("mongoDB") {
 	case "mongoDB":
 		import("./products/MongoDBProducts.js").then(({ MongoDBProducts }) => {
 			productsDao = new MongoDBProducts();
