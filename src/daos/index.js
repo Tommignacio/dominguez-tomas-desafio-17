@@ -14,7 +14,7 @@ switch (process.env.DB_NAME) {
 		import("./carts/MongoDBCarts.js").then(({ MongoDBCarts }) => {
 			cartsDao = new MongoDBCarts();
 		});
-		import("./chats/mongoDBAuthors.js").then(({ MongoDBAuthors }) => {
+		import("./chats/MongoDBAuthors.js").then(({ MongoDBAuthors }) => {
 			authorsDao = new MongoDBAuthors();
 		});
 		import("./chats/mongoDBMessages.js").then(({ MongoDBMessages }) => {
